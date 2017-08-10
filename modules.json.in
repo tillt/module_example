@@ -1,0 +1,27 @@
+{
+   "libraries": [
+      {
+         "file": "@abs_top_builddir@/.libs/libfoo_example.@LIB_EXT@",
+         "modules": [
+            {
+               "name": "org_apache_mesos_FooHook",
+               "parameters": [
+                  {
+                     "key": "foo",
+                     "value": "/something/just/fooy"
+                  }
+               ]
+            },
+            {
+               "name": "org_apache_mesos_FooIsolator",
+               "parameters": [
+                  {
+                     "key": "foo",
+                     "value": "/something/just/fooy"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
